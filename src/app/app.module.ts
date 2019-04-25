@@ -8,6 +8,8 @@ import { NavbarComponentComponent } from './navbar-component/navbar-component.co
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { ShopComponentComponent } from './shop-component/shop-component.component';
 
+import { DrinkService } from './drink.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,6 +26,6 @@ import { ShopComponentComponent } from './shop-component/shop-component.componen
     ])
   ],
   bootstrap: [AppComponent],
-  providers: []
+  providers: [DrinkService]
 })
 export class AppModule { }
