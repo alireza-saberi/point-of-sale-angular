@@ -35,4 +35,5 @@ h1.title {
   box-shadow: 0 0 18px -3px #e1e2e1;
   font-weight: bold;
   width: 10em;
+  cursor: pointer;
 }
