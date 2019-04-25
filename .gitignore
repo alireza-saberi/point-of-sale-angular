@@ -47,3 +47,6 @@ Thumbs.db
 
 # IDE bullshits
 .idea
+
+#environment variables
+src/environments/*
