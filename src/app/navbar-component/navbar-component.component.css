@@ -11,3 +11,11 @@ nav {
   letter-spacing: 3px;
   color: #950037;
 }
+
+#login-button {
+  color: #950037;
+}
+#login-button:hover {
+  background-color: #E1E2E1;
+  border: 1px solid #E1E2E1;
+}

@@ -11,13 +11,17 @@ import {HomeComponentComponent} from './home-component/home-component.component'
 import {ShopComponentComponent} from './shop-component/shop-component.component';
 
 import {DrinkService} from './drink.service';
+import { LoginComponent } from './login/login.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponentComponent,
     HomeComponentComponent,
-    ShopComponentComponent
+    ShopComponentComponent,
+    LoginComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
